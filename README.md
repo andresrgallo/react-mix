@@ -1,4 +1,5 @@
-#Practice react by creating various components
+# Practice react by creating various components
+
 Following list of components:
 
 1. App: The Home page
