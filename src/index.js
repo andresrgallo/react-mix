@@ -12,6 +12,7 @@ import Users from './components/users';
 import Contact from './components/contact';
 import Notfound from './components/notFound';
 import Counter from './components/counter';
+import Employees from './components/employees';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -33,17 +34,13 @@ const routing = (
             Contact
           </NavLink>
         </li>
-        <li>
-          <NavLink activeClassName="active" to="/counter">
-            Counter
-          </NavLink>
-        </li>
       </ul>
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/users" component={Users} />
         <Route path="/contact" component={Contact} />
         <Route path="/counter" component={Counter} />
+        <Route path="/employees" component={Employees} />
         <Route component={Notfound} />
       </Switch>
     </div>

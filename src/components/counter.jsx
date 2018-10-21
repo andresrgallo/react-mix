@@ -43,6 +43,7 @@ class Counter extends Component {
     const totalCounters = counters.filter(c => c.value !== 0).length;
     return (
       <div>
+        <h1>Counters</h1>
         <p>
           Total active counters:{' '}
           <span className="badge badge-pill badge-success ml-2">
