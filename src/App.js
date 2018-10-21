@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
-    return <h1>Home</h1>;
+    return <h1>home</h1>;
   }
 }
 
