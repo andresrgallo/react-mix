@@ -1,4 +1,4 @@
-# Practice react by creating various components
+# Practice react by a mixture of differen types of components
 
 Following list of components:
 
