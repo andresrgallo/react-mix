@@ -1,4 +1,4 @@
-# Practice react by a mixture of differen types of components
+# Practice react by a mixture of different types of components
 
 Following list of components:
 
