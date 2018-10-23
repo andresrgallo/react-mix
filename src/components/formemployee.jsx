@@ -11,7 +11,6 @@ class Formemployee extends React.Component {
   }
 
   handleChange = e => {
-    console.log('e', e.target);
     const name = e.target.name;
     this.setState({[name]: e.target.value});
   };
@@ -46,8 +45,14 @@ class Formemployee extends React.Component {
             value={position}
             onChange={this.handleChange}
           />
+          <div>
+            <input
+              className="btn btn-warning m-2"
+              type="submit"
+              value="Submit"
+            />
+          </div>
         </div>
-        <input className="btn btn-warning m-2" type="submit" value="Submit" />
       </form>
     );
   }

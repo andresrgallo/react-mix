@@ -16,13 +16,19 @@ class Employees extends React.Component {
     this.setState({employees});
   };
 
+  handleDelete = employeeIndex => {
+    const {employees} = this.state;
+    employees.splice(employeeIndex, 1);
+    this.setState({employees});
+  };
+
   render() {
     const {employees} = this.state;
     return (
       <div>
         <h1>Employees</h1>
         <p>Add an employee and his position</p>
-        <Employeelist employees={employees} />
+        <Employeelist employees={employees} deleteOne={this.handleDelete} />
         <Formemployee submitForm={this.handleSubmit} />
       </div>
     );

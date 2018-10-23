@@ -1,0 +1,20 @@
+.menuBar {
+  height: 4rem;
+}
+
+.clock {
+  float: left;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+  height: 1rem;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 1rem;
+}

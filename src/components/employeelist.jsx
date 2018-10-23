@@ -7,7 +7,11 @@ const employeelist = props => {
         <th>{employee.name}</th>
         <th>{employee.position}</th>
         <th>
-          <button className="btn btn-danger m-2">Delete</button>
+          <button
+            className="btn btn-danger m-2"
+            onClick={e => props.deleteOne(index)}>
+            Delete
+          </button>
         </th>
       </tr>
     );
