@@ -10,3 +10,4 @@ Following list of components:
 6. Counter: Display a list of counters replicating the behaviour of a shopping cart. Includes child components Counterslist and CounterButton.
 7. Employees, includes Fromemployee and Employeelist children components.
 8. Clock: inside Navbar component, displays current local time.
+9. Warning: Component that displays a button that when clicked removes the h1 element and changes the text content of the button. Child component: Warn.

@@ -24,6 +24,7 @@ class Employees extends React.Component {
 
   render() {
     const {employees} = this.state;
+    console.log(this.props.name);
     return (
       <div>
         <h1>Employees</h1>
